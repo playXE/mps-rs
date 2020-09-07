@@ -1,0 +1,16 @@
+#!/usr/bin/perl -w
+# $Id: //info.ravenbrook.com/project/mps/version/1.117/test/test/script/commands/debug#1 $
+#
+# debug a test
+
+&requiredoptions(
+ "MPS_INCLUDE_DIR",
+ "MPS_LINK_OBJ",
+ "VARIETY",
+ "PLATFORM",
+ "LOG_DIR"
+);
+
+foreach $testfile (@ARGV) {
+ &debugtest($testfile);
+}

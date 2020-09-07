@@ -1,0 +1,5 @@
+#include "c_src/mps-1.117.0/code/mps.h"
+#include "c_src/mps-1.117.0/code/mpsavm.h"
+#include "c_src/mps-1.117.0/code/mpsacl.h"
+#include "c_src/mps-1.117.0/code/mpscams.h"
+#include "c_src/mps-1.117.0/code/mpscamc.h"
